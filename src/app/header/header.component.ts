@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
 
   title = 'The Will Will Web Hello World';
 
+  subtitle = '記載著 <u>Will</u> 在網路世界的學習心得與技術分享';
+
   titleWrapper = 'title-wrapper';
 
   constructor() { }
