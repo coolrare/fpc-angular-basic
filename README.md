@@ -17,8 +17,12 @@
     - [Mac] cmd + option + s
 
 - 切換關聯檔案
-    - [Win] alt + o
-    - [Mac] option + shift + o
+    - [Win] alt + o / i / u / p
+    - [Mac] option + shift + o / i / u / p
+    - o: html
+    - i: css
+    - u: ts
+    - p: spec.ts
 
 - 快速開啟檔案
     - [Win] ctrl + p
@@ -42,17 +46,13 @@
 - 自動排版
     - [Win/Mac] alt + shift + f (記得設定 prettier.singleQuote)
 
-- 註解
-    - [Win] ctrl + k + c
-    - [Mac] cmd + k + c
-
-- 取消註解
-    - [Win] ctrl + k + u
-    - [Mac] cmd + k + u
-
-- 單行註解
+- 註解/取消註解
     - [Win] ctrl + /
     - [Mac] cmd + /
+
+## Emmet
+
+- https://emmet.io/
 
 ## 問題排除
 
