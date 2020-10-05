@@ -53,3 +53,12 @@
 - 單行註解
     - [Win] ctrl + /
     - [Mac] cmd + /
+
+## 問題排除
+
+- F12 看到 `Error: Angular JIT compilation failed: '@angular/compiler' not loaded!` 
+  - 重開 VSCode
+- PowerShell 簽章問題
+  1. F1
+  2. Terminal: Select Default Shell
+  3. Command Prompt
