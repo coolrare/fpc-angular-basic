@@ -14,6 +14,7 @@ export class HeaderComponent implements OnInit {
   titleWrapper = 'title-wrapper';
 
   highlight = true;
+  fontSize = 24;
 
   constructor() { }
 
@@ -22,6 +23,8 @@ export class HeaderComponent implements OnInit {
 
   buttonClick(event: MouseEvent): void {
     this.highlight = !this.highlight;
+    this.fontSize += 2;
+
     if(event.altKey) {
       console.log('test');
     }
