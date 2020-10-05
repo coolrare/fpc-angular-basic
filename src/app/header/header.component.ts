@@ -13,12 +13,15 @@ export class HeaderComponent implements OnInit {
 
   titleWrapper = 'title-wrapper';
 
+  highlight = true;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
   buttonClick(event: MouseEvent): void {
+    this.highlight = !this.highlight;
     if(event.altKey) {
       console.log('test');
     }

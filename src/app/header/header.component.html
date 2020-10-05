@@ -29,8 +29,15 @@
           <img src="/assets/images/logo.png" class="pull-left logo" alt="The Will Will Web">
 
           <div class="pull-left">
-            <h1><a href="http://blog.miniasp.com/">{{ title }}</a></h1>
-            <h3 [innerHTML]="subtitle"></h3>
+            <h1>
+              <a href="http://blog.miniasp.com/">{{ title }}</a>
+            </h1>
+            <h3
+             [class.text-red]="highlight"
+             [innerHTML]="subtitle"></h3>
+             <h3
+             [class]="{ 'text-red': highlight }"
+             [innerHTML]="subtitle"></h3>
           </div>
 
           <div id="social-icons" class="pull-right social-icon">
