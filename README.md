@@ -54,6 +54,11 @@
 
 - https://emmet.io/
 
+## Prettier 設定檔
+
+- 建立 `.prettierrc`
+- 設定內容: https://prettier.io/docs/en/options.html
+
 ## 問題排除
 
 - F12 看到 `Error: Angular JIT compilation failed: '@angular/compiler' not loaded!` 
