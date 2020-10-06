@@ -63,9 +63,21 @@
 
 ![](./images/input.jpg)
 
+https://www.facebook.com/photo?fbid=10219059938679688&set=gm.2472608106082878
+
 ## Input 資料流程
 
 ![](./images/output.jpg)
+
+https://www.facebook.com/photo?fbid=10219059941079748&set=gm.2472608106082878
+
+## ngIf
+
+https://www.facebook.com/photo?fbid=10219059943559810&set=gm.2472608106082878
+
+## ngFor
+
+https://www.facebook.com/photo?fbid=10219059945319854&set=gm.2472608106082878
 
 
 ## 問題排除
