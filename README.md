@@ -85,6 +85,24 @@ https://www.facebook.com/photo?fbid=10219059945319854&set=gm.2472608106082878
 - F1 -> >Debug: Start Debugging and Stop on Entry
 - 產生 .vscode/launch.json
 
+## 元件庫
+
+- [Angular Material](https://material.angular.io/)
+- [PrimeNG](https://www.primefaces.org/primeng/showcase/#/)
+- [NG-ZORRO](https://ng.ant.design/docs/introduce/en)
+- [NG Bootstrap](https://ng-bootstrap.github.io/#/home)
+- [SB Admin Angular](https://startbootstrap.com/templates/sb-admin-angular/)
+
+- [Angular Material 完全攻略](https://wellwind.idv.tw/blog/categories/Angular-Material%E5%AE%8C%E5%85%A8%E6%94%BB%E7%95%A5/)
+  - 文章版本比較舊，參考就好
+
+## RxJS
+
+- [RxJS](https://rxjs-dev.firebaseapp.com/)
+- [打通 RxJS 任督二脈](https://wellwind.idv.tw/blog/categories/%E6%89%93%E9%80%9A-RxJS-%E4%BB%BB%E7%9D%A3%E4%BA%8C%E8%84%88/)
+- [[Angular 大師之路] 在 Angular 中應用 RxJS 的 operators (1) - 基礎篇](https://wellwind.idv.tw/blog/2018/11/13/mastering-angular-29-angular-with-rxjs-basic/)
+- [[Angular 大師之路] 在 Angular 中應用 RxJS 的 operators (2) - 進階應用](https://wellwind.idv.tw/blog/2018/11/14/mastering-angular-30-angular-with-rxjs-advanced/)
+
 ## 問題排除
 
 - F12 看到 `Error: Angular JIT compilation failed: '@angular/compiler' not loaded!` 
