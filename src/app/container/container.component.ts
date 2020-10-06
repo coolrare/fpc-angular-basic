@@ -1,3 +1,4 @@
+import { Article } from './../article';
 import { DataService } from './../data.service';
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
@@ -17,10 +18,11 @@ export class ContainerComponent implements OnInit {
 
   display = true;
 
-  articles = this.dataService.articles;
+  // articles = this.dataService.articles;
+  articles: Article[];
 
   constructor(private dataService: DataService) {
-    console.log('Container Component:', dataService.articles);
+    // console.log('Container Component:', dataService.articles);
   }
 
   ngOnInit(): void {
@@ -29,6 +31,11 @@ export class ContainerComponent implements OnInit {
     //   this.a = { title: 'Test 2'};
     // }, 3000);
     this.a.title = 'Test 2';
+
+    this.dataService.getArticles().subscribe(data => {
+      this.articles = data;
+      console.log(data);
+    });
 
   }
 
