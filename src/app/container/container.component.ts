@@ -20,7 +20,7 @@ export class ContainerComponent implements OnInit {
       category: 'Visual Studio',
       'category-link': 'http://blog.miniasp.com/category/Visual-Studio.aspx',
       summary:
-        '<p>由於我的 Visual Studio Code 大部分時候都是在命令提示字元下啟動，所以只要用 <strong><font color=\'#ff0000\' face=\'Consolas\'>code .</font></strong>就可以快速啟動 Visual Studio Code 並自動開啟目前所在資料夾。不過不知道從哪個版本開始，我在啟動 Visual Studio Code 之後，卻開始在原本所在的命令提示字元視窗中出現一堆惱人的偵錯訊息，本篇文章試圖解析這個現象，並提出解決辦法。</p><p>... <a class=\'more\' href=\'http://blog.miniasp.com/post/2016/04/30/Visual-Studio-Code-from-Command-Prompt-notes.aspx#continue\'>繼續閱讀</a>...</p>',
+        "<p>由於我的 Visual Studio Code 大部分時候都是在命令提示字元下啟動，所以只要用 <strong><font color='#ff0000' face='Consolas'>code .</font></strong>就可以快速啟動 Visual Studio Code 並自動開啟目前所在資料夾。不過不知道從哪個版本開始，我在啟動 Visual Studio Code 之後，卻開始在原本所在的命令提示字元視窗中出現一堆惱人的偵錯訊息，本篇文章試圖解析這個現象，並提出解決辦法。</p><p>... <a class='more' href='http://blog.miniasp.com/post/2016/04/30/Visual-Studio-Code-from-Command-Prompt-notes.aspx#continue'>繼續閱讀</a>...</p>",
     },
     {
       id: 2,
@@ -46,7 +46,7 @@ export class ContainerComponent implements OnInit {
       category: 'ASP.NET MVC',
       'category-link': 'http://blog.miniasp.com/category/ASPNET-MVC.aspx',
       summary:
-        '<p>在 ASP.NET MVC 的 <strong>模型繫結</strong> (Model Binding) 完成之後，我們可以在 Controller / Action 中取得 <span style=\'font-family: Consolas;\'>ModelState</span>                  物件，一般來說我們都會用 <span style=\'font-family: Consolas;\'><strong>ModelState.IsValid</strong></span> 來檢查在「模型繫結」的過程中所做的<strong>輸入驗證</strong> (Input Validation) 與 <strong>模型驗證</strong> (Model Validation) 是否成功。不過，這個 <span style=\'font-family: Consolas;\'>ModelState</span>物件的用途很廣，裡面存有非常多模型繫結過程的狀態資訊，不但在 Controller 中能用，在 View 裡面也能使用，用的好的話，可以讓你的 Controller 更輕、View 也更乾淨，本篇文章將分享幾個 ModelState 的使用技巧。</p><p>... <a class=\'more\' href=\'http://blog.miniasp.com/post/2016/03/14/ASPNET-MVC-Developer-Note-Part-28-Understanding-ModelState.aspx#continue\'>繼續閱讀</a>...</p>',
+        "<p>在 ASP.NET MVC 的 <strong>模型繫結</strong> (Model Binding) 完成之後，我們可以在 Controller / Action 中取得 <span style='font-family: Consolas;'>ModelState</span>                  物件，一般來說我們都會用 <span style='font-family: Consolas;'><strong>ModelState.IsValid</strong></span> 來檢查在「模型繫結」的過程中所做的<strong>輸入驗證</strong> (Input Validation) 與 <strong>模型驗證</strong> (Model Validation) 是否成功。不過，這個 <span style='font-family: Consolas;'>ModelState</span>物件的用途很廣，裡面存有非常多模型繫結過程的狀態資訊，不但在 Controller 中能用，在 View 裡面也能使用，用的好的話，可以讓你的 Controller 更輕、View 也更乾淨，本篇文章將分享幾個 ModelState 的使用技巧。</p><p>... <a class='more' href='http://blog.miniasp.com/post/2016/03/14/ASPNET-MVC-Developer-Note-Part-28-Understanding-ModelState.aspx#continue'>繼續閱讀</a>...</p>",
     },
     {
       id: 4,
