@@ -59,9 +59,14 @@
 - 建立 `.prettierrc`
 - 設定內容: https://prettier.io/docs/en/options.html
 
-## Input 資料流程
+## Output 資料流程
 
 ![](./images/input.jpg)
+
+## Input 資料流程
+
+![](./images/output.jpg)
+
 
 ## 問題排除
 
