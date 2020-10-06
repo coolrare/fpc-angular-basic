@@ -9,8 +9,12 @@
         <!-- <app-article [article]="{}" *ngIf="display"></app-article> -->
         <!-- <app-article [article]="a"></app-article> -->
 
-        <app-article
+        <!-- <app-article
           *ngFor="let article of articles | filter:'IT'"
+          [article]="article">
+        </app-article> -->
+        <app-article
+          *ngFor="let article of articles"
           [article]="article">
         </app-article>
 
