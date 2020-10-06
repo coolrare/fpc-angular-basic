@@ -10,7 +10,7 @@
         <!-- <app-article [article]="a"></app-article> -->
 
         <app-article
-          *ngFor="let article of articles"
+          *ngFor="let article of articles | filter:'IT'"
           [article]="article">
         </app-article>
 
