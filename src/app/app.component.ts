@@ -10,8 +10,7 @@ export class AppComponent {
   title = 'demo1';
 
   constructor(dataService: DataService) {
-    console.log('App Component:', dataService.articles);
-
+    // console.log('App Component:', dataService.articles);
   }
 
   search(keyword: string): void {
