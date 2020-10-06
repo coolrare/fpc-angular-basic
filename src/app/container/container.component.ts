@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-container',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./container.component.css'],
 })
 export class ContainerComponent implements OnInit {
+
+  @Output() searchButtonClick
+    = new EventEmitter();
+
   keyword = '123';
 
   articles = [
@@ -94,6 +98,9 @@ export class ContainerComponent implements OnInit {
   ngOnInit(): void {}
 
   search(event: KeyboardEvent): void {
+    this
+      .searchButtonClick
+      .emit(this.keyword);
     console.log(this.keyword);
     console.log('search');
   }
