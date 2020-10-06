@@ -79,6 +79,11 @@ https://www.facebook.com/photo?fbid=10219059943559810&set=gm.2472608106082878
 
 https://www.facebook.com/photo?fbid=10219059945319854&set=gm.2472608106082878
 
+## Debug
+
+- 安裝 Debugger for Chrome Extension
+- F1 -> >Debug: Start Debugging and Stop on Entry
+- 產生 .vscode/launch.json
 
 ## 問題排除
 
