@@ -12,6 +12,8 @@ export class ContainerComponent implements OnInit {
 
   keyword = '123';
 
+  a = { title : 'test'};
+
   articles = [
     {
       id: 1,
@@ -93,9 +95,18 @@ export class ContainerComponent implements OnInit {
     },
   ];
 
+  display = true;
+
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+
+    // setTimeout(() => {
+    //   this.a = { title: 'Test 2'};
+    // }, 3000);
+    this.a.title = 'Test 2';
+
+  }
 
   search(event: KeyboardEvent): void {
     this
@@ -103,6 +114,7 @@ export class ContainerComponent implements OnInit {
       .emit(this.keyword);
     console.log(this.keyword);
     console.log('search');
+    this.display = !this.display;
   }
 
   inputChange(event): void {
