@@ -59,6 +59,10 @@
 - 建立 `.prettierrc`
 - 設定內容: https://prettier.io/docs/en/options.html
 
+## Input 資料流程
+
+![](./images/input.jpg)
+
 ## 問題排除
 
 - F12 看到 `Error: Angular JIT compilation failed: '@angular/compiler' not loaded!` 
